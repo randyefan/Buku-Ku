@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61000340249797B5003B6A80 /* HandleGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6100033F249797B5003B6A80 /* HandleGenre.swift */; };
+		615148B72497459900CC8E00 /* ServiceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615148B62497459900CC8E00 /* ServiceConnector.swift */; };
+		615148B92497469100CC8E00 /* HandleDataBuku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615148B82497469100CC8E00 /* HandleDataBuku.swift */; };
+		615148BB2497625100CC8E00 /* BukuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615148BA2497625100CC8E00 /* BukuCollectionViewCell.swift */; };
 		61C840732497302300D3A9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C840722497302300D3A9C4 /* AppDelegate.swift */; };
 		61C840752497302300D3A9C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C840742497302300D3A9C4 /* SceneDelegate.swift */; };
 		61C840772497302300D3A9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C840762497302300D3A9C4 /* ViewController.swift */; };
 		61C8407A2497302300D3A9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C840782497302300D3A9C4 /* Main.storyboard */; };
 		61C8407C2497302600D3A9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C8407B2497302600D3A9C4 /* Assets.xcassets */; };
 		61C8407F2497302600D3A9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C8407D2497302600D3A9C4 /* LaunchScreen.storyboard */; };
+		61EEEDFB24977E600046FA98 /* HandleDataBukuById.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EEEDFA24977E600046FA98 /* HandleDataBukuById.swift */; };
+		61EEEDFD2497803F0046FA98 /* DetailBukuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EEEDFC2497803F0046FA98 /* DetailBukuViewController.swift */; };
+		677304E5E7DE0FEA3B7D0F56 /* Pods_Buku_Ku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C1D440622B46CE141C511E /* Pods_Buku_Ku.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6100033F249797B5003B6A80 /* HandleGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleGenre.swift; sourceTree = "<group>"; };
+		615148B62497459900CC8E00 /* ServiceConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConnector.swift; sourceTree = "<group>"; };
+		615148B82497469100CC8E00 /* HandleDataBuku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleDataBuku.swift; sourceTree = "<group>"; };
+		615148BA2497625100CC8E00 /* BukuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuCollectionViewCell.swift; sourceTree = "<group>"; };
 		61C8406F2497302300D3A9C4 /* Buku-Ku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buku-Ku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C840722497302300D3A9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61C840742497302300D3A9C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		61C8407B2497302600D3A9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61C8407E2497302600D3A9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61C840802497302600D3A9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EEEDFA24977E600046FA98 /* HandleDataBukuById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleDataBukuById.swift; sourceTree = "<group>"; };
+		61EEEDFC2497803F0046FA98 /* DetailBukuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBukuViewController.swift; sourceTree = "<group>"; };
+		644FFA4C4F0BF8589EB5CF54 /* Pods-Buku-Ku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buku-Ku.debug.xcconfig"; path = "Target Support Files/Pods-Buku-Ku/Pods-Buku-Ku.debug.xcconfig"; sourceTree = "<group>"; };
+		88C1D440622B46CE141C511E /* Pods_Buku_Ku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buku_Ku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56DF5ACFD0B17703573E16A /* Pods-Buku-Ku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buku-Ku.release.xcconfig"; path = "Target Support Files/Pods-Buku-Ku/Pods-Buku-Ku.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677304E5E7DE0FEA3B7D0F56 /* Pods_Buku_Ku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		615148AD24973B9F00CC8E00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				615148B82497469100CC8E00 /* HandleDataBuku.swift */,
+				61EEEDFA24977E600046FA98 /* HandleDataBukuById.swift */,
+				6100033F249797B5003B6A80 /* HandleGenre.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		615148AE24973BAB00CC8E00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				615148BA2497625100CC8E00 /* BukuCollectionViewCell.swift */,
+				61C8407D2497302600D3A9C4 /* LaunchScreen.storyboard */,
+				61C840782497302300D3A9C4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		615148AF24973BB300CC8E00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61C840762497302300D3A9C4 /* ViewController.swift */,
+				61EEEDFC2497803F0046FA98 /* DetailBukuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		615148B024973BC400CC8E00 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				615148B62497459900CC8E00 /* ServiceConnector.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		61C840662497302300D3A9C4 = {
 			isa = PBXGroup;
 			children = (
 				61C840712497302300D3A9C4 /* Buku-Ku */,
 				61C840702497302300D3A9C4 /* Products */,
+				EACBBC6186D1696B02307C3D /* Pods */,
+				9A9C02A335AA77064DB45D56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,33 @@
 		61C840712497302300D3A9C4 /* Buku-Ku */ = {
 			isa = PBXGroup;
 			children = (
+				615148B024973BC400CC8E00 /* Network */,
+				615148AF24973BB300CC8E00 /* Controller */,
+				615148AE24973BAB00CC8E00 /* View */,
+				615148AD24973B9F00CC8E00 /* Model */,
 				61C840722497302300D3A9C4 /* AppDelegate.swift */,
 				61C840742497302300D3A9C4 /* SceneDelegate.swift */,
-				61C840762497302300D3A9C4 /* ViewController.swift */,
-				61C840782497302300D3A9C4 /* Main.storyboard */,
 				61C8407B2497302600D3A9C4 /* Assets.xcassets */,
-				61C8407D2497302600D3A9C4 /* LaunchScreen.storyboard */,
 				61C840802497302600D3A9C4 /* Info.plist */,
 			);
 			path = "Buku-Ku";
+			sourceTree = "<group>";
+		};
+		9A9C02A335AA77064DB45D56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C1D440622B46CE141C511E /* Pods_Buku_Ku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACBBC6186D1696B02307C3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				644FFA4C4F0BF8589EB5CF54 /* Pods-Buku-Ku.debug.xcconfig */,
+				B56DF5ACFD0B17703573E16A /* Pods-Buku-Ku.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61C840832497302600D3A9C4 /* Build configuration list for PBXNativeTarget "Buku-Ku" */;
 			buildPhases = (
+				4E4A1F4F69F55D5D70291188 /* [CP] Check Pods Manifest.lock */,
 				61C8406B2497302300D3A9C4 /* Sources */,
 				61C8406C2497302300D3A9C4 /* Frameworks */,
 				61C8406D2497302300D3A9C4 /* Resources */,
+				C4039E49C823B0E61DDE27CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +209,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E4A1F4F69F55D5D70291188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buku-Ku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4039E49C823B0E61DDE27CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buku-Ku/Pods-Buku-Ku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buku-Ku/Pods-Buku-Ku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buku-Ku/Pods-Buku-Ku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61C8406B2497302300D3A9C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EEEDFB24977E600046FA98 /* HandleDataBukuById.swift in Sources */,
+				61000340249797B5003B6A80 /* HandleGenre.swift in Sources */,
 				61C840772497302300D3A9C4 /* ViewController.swift in Sources */,
+				61EEEDFD2497803F0046FA98 /* DetailBukuViewController.swift in Sources */,
+				615148BB2497625100CC8E00 /* BukuCollectionViewCell.swift in Sources */,
+				615148B72497459900CC8E00 /* ServiceConnector.swift in Sources */,
 				61C840732497302300D3A9C4 /* AppDelegate.swift in Sources */,
 				61C840752497302300D3A9C4 /* SceneDelegate.swift in Sources */,
+				615148B92497469100CC8E00 /* HandleDataBuku.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		61C840842497302600D3A9C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644FFA4C4F0BF8589EB5CF54 /* Pods-Buku-Ku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +425,7 @@
 		};
 		61C840852497302600D3A9C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56DF5ACFD0B17703573E16A /* Pods-Buku-Ku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

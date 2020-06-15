@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "630D9239-5EE1-4ECC-92BB-51CB17EDBA9B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Buku-Ku/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E - 1bd4db17952c832d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Buku_Ku.ViewController.books.getter : Swift.Array&lt;Buku_Ku.Buku&gt;"
+                  moduleName = "Buku-Ku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/randyefan/Documents/Buku-Ku/Buku-Ku/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E - 43a8ba21bdf31f21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Buku_Ku.ViewController.books.setter : Swift.Array&lt;Buku_Ku.Buku&gt;"
+                  moduleName = "Buku-Ku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/randyefan/Documents/Buku-Ku/Buku-Ku/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E - 45ab935c671a7e30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Buku_Ku.ViewController.books.modify : Swift.Array&lt;Buku_Ku.Buku&gt;"
+                  moduleName = "Buku-Ku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/randyefan/Documents/Buku-Ku/Buku-Ku/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E - 1169f4b624bb55d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Buku_Ku.ViewController.books.modify : Swift.Array&lt;Buku_Ku.Buku&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Buku-Ku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/randyefan/Documents/Buku-Ku/Buku-Ku/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E - a65d16fe563bd957"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Buku_Ku.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Buku_Ku.ViewController"
+                  moduleName = "Buku-Ku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/randyefan/Documents/Buku-Ku/Buku-Ku/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "535">
+               </Location>
+               <Location
+                  uuid = "6E36B20F-79CE-4EC8-ABF8-073E2CB68B5E - c66c6bea7ab9c021"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Buku_Ku.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Buku_Ku.ViewController&gt;"
+                  moduleName = "Buku-Ku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/randyefan/Documents/Buku-Ku/Buku-Ku/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "437">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5434C3A7-5D64-4115-902E-9B8DBB45A08C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Buku-Ku/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
